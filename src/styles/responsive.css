@@ -1,0 +1,116 @@
+/* Extra small devices ( <= 320px ) */
+@media only screen and (max-width: 340px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    min-width: 45px;
+    min-height: 45px;
+  }
+
+  .logo-font,
+  .hero__title {
+    font-size: 1.5em;
+    min-width: 45px;
+    min-height: 45px;
+  }
+
+  .nav-item a,
+  .hero__subtitle,
+  .btn {
+    font-size: 1em;
+    min-width: 45px;
+    min-height: 45px;
+  }
+}
+
+/* Smaller devices ( <= 600px ) */
+@media only screen and (max-width: 600px) {
+  .menu {
+    display: block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    text-align: center;
+    min-width: 45px;
+    min-height: 45px;
+  }
+
+  .menu-hp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 45px;
+    min-height: 45px;
+  }
+
+  .menu span {
+    text-align: center;
+    min-width: 45px;
+    min-height: 45px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 0;
+    height: 175px;
+    flex-wrap: wrap;
+    min-width: 45px;
+    min-height: 45px;
+  }
+
+  .nav-list {
+    display: none;
+    min-width: 45px;
+    min-height: 45px;
+  }
+
+  .nav-list-block {
+    display: flex;
+    min-width: 45px;
+    min-height: 45px;
+  }
+}
+
+/* Small devices ( >= 600px ) */
+@media only screen and (min-width: 600px) {
+  .main-content__title {
+    margin-bottom: 1em;
+    min-width: 45px;
+    min-height: 45px;
+  }
+
+  #explore-restaurant,
+  #fav-resto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.545em;
+    grid-row-gap: 1.545em;
+    min-width: 45px;
+    min-height: 45px;
+  }
+}
+
+/* Medium devices ( >= 768px ) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices ( >= 992px ) */
+@media only screen and (min-width: 992px) {
+  #explore-restaurant,
+  #fav-resto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-width: 45px;
+    min-height: 45px;
+  }
+}
+
+/* Extra large devices ( >= 1200px ) */
+@media only screen and (min-width: 1200px) {
+  main {
+    max-width: 1200px;
+    min-width: 45px;
+    min-height: 45px;
+  }
+}

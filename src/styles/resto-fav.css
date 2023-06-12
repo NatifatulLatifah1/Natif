@@ -1,0 +1,9 @@
+/* FAVORITE RESTO */
+
+#fav-resto {
+  display: grid;
+  grid-row-gap: 1.5em;
+  padding-top: 1.5em;
+  min-width: 45px;
+  min-height: 45px;
+}

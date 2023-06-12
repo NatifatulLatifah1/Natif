@@ -1,0 +1,121 @@
+/*
+ * main
+ */
+ 
+ main {
+  width: 100%;
+  margin: 0 auto;
+  font-size: large;
+  min-width: 45px;
+  min-height: 45px;
+}
+ 
+.container {
+  margin: 2em 10%;
+  padding: 1em;
+  min-width: 45px;
+  min-height: 45px;
+}
+ 
+.main-content__title {
+  text-align: center;
+  margin-bottom: 0.5em;
+  min-width: 45px;
+  min-height: 45px;
+}
+ 
+#explore-restaurant {
+  display: grid;
+  grid-row-gap: 1.5em;
+  padding-top: 1.5em;
+  min-width: 45px;
+  min-height: 45px;
+}
+ 
+/*
+ * Cards
+ */
+ 
+.card {
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  min-width: 45px;
+  min-height: 45px;
+}
+ 
+.card:hover {
+  box-shadow: 10px 10px 5px 0 var(--secondary-color);
+  min-width: 45px;
+  min-height: 45px;
+}
+ 
+.card-a-tag {
+  text-decoration: none;
+  color: var(--font-color);
+  min-width: 45px;
+  min-height: 45px;
+}
+ 
+.card-rating {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: large;
+  background-color: var(--btn);
+  padding: 0.4em 1.3em;
+  z-index: 1;
+  min-width: 45px;
+  min-height: 45px;
+}
+ 
+.card-rating .fa {
+  font-size: smaller;
+  padding: 0.3em 0.8em 0.3em 0;
+  color: yellow;
+  min-width: 45px;
+  min-height: 45px;
+}
+ 
+.img-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  max-height: 600px;
+  min-width: 45px;
+}
+ 
+.card-image {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  object-position: center;
+}
+ 
+.card-content {
+  padding: 1.4em 2em;
+  font-size: small;
+  text-align: center;
+  min-width: 45px;
+  min-height: 45px;
+}
+ 
+.card-content-title {
+  font-weight: bold;
+  padding-bottom: 0.376em;
+  color: var(--btn);
+  min-width: 45px;
+  min-height: 45px;
+}
+ 
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  min-width: 45px;
+  min-height: 45px;
+}
